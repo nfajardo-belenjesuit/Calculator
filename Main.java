@@ -17,9 +17,12 @@ class Main {
 			total -= num;
 		}
 
-    public void mrF(){
-      System.out.println("Ye 24");
+  public int divide(int[] b){
+    int total = 0;
+    for(int num : b){
+      total /= num;
     }
+  }
 		return total;
 	}
 	public int add(int[] a){
