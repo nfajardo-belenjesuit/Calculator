@@ -17,16 +17,14 @@ class Main {
 			total -= num;
 		}
 
-public int divide(int[] b){
-  int total = 0;
-  for(int num : b){
-    total /= num;
-  }
-  return total;
-}
-
-		return total;
+	public int divide(int[] b){
+	  int total = 0;
+	  for(int num : b){
+	    total /= num;
+	  }
+	  return total;
 	}
+
 	public int add(int[] a){
 		int total = 0;
 		for(int num : a){
