@@ -16,6 +16,10 @@ class Main {
 		for(int num : a){
 			total -= num;
 		}
+
+    public void mrF(){
+      System.out.println("Ye 24");
+    }
 		return total;
 	}
 	public int add(int[] a){
