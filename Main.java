@@ -36,7 +36,7 @@ class Main {
     public int multi(int[] a){
         int total = 0;
         for(int num: a){
-            total *= num
+            total *= num;
         }
         return total;
 	}
