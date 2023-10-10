@@ -20,5 +20,13 @@ class Main {
 			total += num;
 		}
 		return total;
+
+
+    public int multi(int[] a){
+        int total = 0;
+        for(int num: a){
+            total *= num
+        }
+        return total;
 	}
 }
