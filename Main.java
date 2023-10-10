@@ -11,6 +11,9 @@ class Main {
 		System.out.println("System online");
 	}
 
+  //YE 24
+  //YE 24
+
 	public int subtract(int[] a){
 		int total = 0;
 		for(int num : a){
