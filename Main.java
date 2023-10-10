@@ -11,27 +11,38 @@ class Main {
 		System.out.println("System online");
 	}
 
+  //YE 24
+  //YE 24
+
 	public int subtract(int[] a){
 		int total = 0;
 		for(int num : a){
 			total -= num;
-    }
 		return total;
+		}
+
+	public int divide(int[] b){
+	  int total = 0;
+	  for(int num : b){
+	    total /= num;
+	  }
+	  return total;
 	}
+
 	public int add(int[] a){
 		int total = 0;
 		for(int num : a){
 			total += num;
 		}
 		return total;
+  }
 
-
-  public int multi(int[] a){
-      int total = 0;
-      for(int num: a){
-          total *= num;
-      }
-      return total;
+    public int multi(int[] a){
+        int total = 0;
+        for(int num: a){
+            total *= num;
+        }
+        return total;
 	}
 
   public divide(int[] a){
