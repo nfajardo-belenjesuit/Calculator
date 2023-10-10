@@ -1,6 +1,10 @@
 class Main {
 	public static void main(String[] args) {
-	    
+	    int[] nums = {4, 6, 8, 3, 32, 5, 7, 8};
+		System.out.println(subtract(nums));
+		System.out.println(add(nums));
+		System.out.println(multiply(nums));
+		System.out.println(divide(nums));
 	}
 
 	public void systemCheck(){
